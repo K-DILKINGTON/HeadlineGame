@@ -1,0 +1,32 @@
+<div class = "game-container">
+	<game-balls>
+		<div class = "game-ball" ng-click ="executeAnswer(leftHeadline,'left')">					
+			
+
+			<div class = "game-pane">
+				<div class = "answer-overlay"></div>
+				<img class = "imager" src = "images/donald-trump.jpg"></div>
+				<div class = "info-area">
+					<span class = "spanner">
+						{{leftHeadline.headline}}				
+					</span>		
+				</div> 
+			</div>
+			<div class = "connector">
+				<div class = "timer" ng-app = "timer">
+					<span class = "time">{{score}}</span>
+				</div>
+			</div>
+
+			<div class = "game-ball" ng-click = "executeAnswer(rightHeadline,'right')" >
+				<div class = "game-pane">
+					<div class = "answer-overlay"></div>
+					<img class = "imager" src = "images/nelson-mandela.jpeg"></div>
+					<div class = "info-area">
+						<span class = "spanner">
+							{{rightHeadline.headline}}					
+						</span>
+					</div>
+				</div>
+			</game-balls>
+		</div>

@@ -1,0 +1,29 @@
+
+@font-face {
+    font-family: 'Sweet'; 
+    src: url('\fonts\Sweet-Font.ttf'); 
+}
+
+.gamecontainer{
+
+}
+
+.answerPane{
+
+}
+
+.header{
+	width:100%;
+	height:50px;
+	background: black;
+	font-family: 'Sweet';
+
+}
+
+.footer{
+
+}
+
+.content-area{
+
+}
