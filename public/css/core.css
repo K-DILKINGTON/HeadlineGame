@@ -10,6 +10,23 @@
 	src: url('../fonts/Fabrica.otf'); 
 }
 
+li{
+	display:inline-block;
+	color:white;
+	margin-right:10px;
+	font-family: 'Fabrica'; 
+}
+
+.nav-list{
+	margin-top:10px;
+	margin-right:50px;
+}
+
+.headline-navigation{
+	float:right;
+}
+
+
 .curtain{
 	position:absolute;
 	width:100%;
@@ -90,7 +107,16 @@
     */
 }
 
+.results-area{
+	height:500px;
+}
 
+.answer{
+	visibility:hidden;
+	width:100%;
+	height:100%;
+	position:absolute;
+}
 .headline{
 	top:100%;
 	position:relative;
@@ -158,6 +184,7 @@
 	font-size: 30px;
 	color:white;
 	margin-left:20px;
+	display:inline-block;
 }
 
 .header{

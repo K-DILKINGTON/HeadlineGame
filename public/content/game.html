@@ -1,10 +1,13 @@
 <div class = "game-container">
 	<game-balls>
 		<div class = "game-ball" ng-click ="executeAnswer(leftHeadline,'left')">					
-			
+
 
 			<div class = "game-pane">
-				<div class = "answer-overlay"></div>
+				<div class = "answer-overlay">
+					<img class = "answer tick" src = "images/tick.png">
+					<img class = "answer cross" src = "images/cross.png">
+				</div>
 				<img class = "imager" src = "images/donald-trump.jpg"></div>
 				<div class = "info-area">
 					<span class = "spanner">
@@ -14,13 +17,16 @@
 			</div>
 			<div class = "connector">
 				<div class = "timer" ng-app = "timer">
-					<span class = "time">{{score}}</span>
+					<span class = "time">{{timeLeft}}</span>
 				</div>
 			</div>
 
 			<div class = "game-ball" ng-click = "executeAnswer(rightHeadline,'right')" >
 				<div class = "game-pane">
-					<div class = "answer-overlay"></div>
+					<div class = "answer-overlay">
+						<img class = "answer tick" src = "images/tick.png">
+						<img class = "answer cross" src = "images/cross.png">
+					</div>
 					<img class = "imager" src = "images/nelson-mandela.jpeg"></div>
 					<div class = "info-area">
 						<span class = "spanner">
