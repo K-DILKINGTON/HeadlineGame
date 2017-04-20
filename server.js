@@ -8,8 +8,7 @@ var app = express();
 var Headline = require('./models/Headline');
 
 app.use(function(req,res,next){
-	
-    req.db = db;
+	req.db = db;
     next();
 });
 
