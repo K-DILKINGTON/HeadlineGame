@@ -14,7 +14,7 @@ app.config(function($routeProvider){
 
 	.when('/',{
 		templateUrl:"content/home.html",
-		controller:"HeadLineController"
+		controller:"HomeController"
 	})
 
 	.when('/startgame',{

@@ -17,6 +17,20 @@ li{
 	font-family: 'Fabrica'; 
 }
 
+.welcome{
+	background:cornflowerblue;
+
+}
+
+.welcome-banner{
+	font-family: 'Sweet';
+	background:cornflowerblue;
+}
+
+.welcome-blurb{
+	font-family: 'Fabrica';
+	background:cornflowerblue;
+}
 .nav-list{
 	margin-top:10px;
 	margin-right:50px;
@@ -57,13 +71,13 @@ li{
 }
 
 .start-game-button{
-	font-size: 20px;
+	font-size: 70px;
     margin-top: 50px;
 	min-height: 100px;
     min-width: 150px;
     border: none;
     background-color: cornflowerblue;
-    border-radius: 90px;
+    font-family: 'Sweet';
 }
 
 .game-container{
@@ -185,6 +199,31 @@ li{
 	color:white;
 	margin-left:20px;
 	display:inline-block;
+
+}
+
+.home-link{
+	text-decoration: none;
+    color: inherit;
+    cursor: auto;
+}
+
+.home-link:hover{
+	text-decoration: none;
+    color: inherit;
+    cursor: auto;
+}
+
+.home-link:visited{
+	text-decoration: none;
+    color: inherit;
+    cursor: auto;
+}
+
+.home-link:link{
+	text-decoration: none;
+    color: inherit;
+    cursor: auto;
 }
 
 .header{
