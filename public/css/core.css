@@ -123,6 +123,7 @@ li{
 
 .results-area{
 	height:500px;
+	margin: 50px;
 }
 
 .answer{
@@ -191,6 +192,7 @@ li{
 
 .imager{
 	height:100%;
+	width:100%;
 }
 
 .website-title{

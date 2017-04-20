@@ -64,7 +64,7 @@ app.controller('HeadLineController',['$scope','$rootScope','$http','$location','
 	var rightAnswer = function(){
 		var left = $scope.leftHeadline.date;
 		var right = $scope.rightHeadline.date;
-		return left>right?left:right;
+		return left<right?left:right;
 	}
 
 	var incrementScore = function(){

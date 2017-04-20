@@ -1,7 +1,7 @@
 var express = require('express');
 var mongo = require('mongodb');
 var mongoose = require('mongoose');
-var db = mongoose.connect('localhost:27017/headlinedatabase');
+var db = mongoose.connect('localhost:27017/headlinefinal');
 var Schema = mongoose.Schema;
 var app = express();
 
