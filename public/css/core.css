@@ -17,6 +17,10 @@ li{
 	font-family: 'Fabrica'; 
 }
 
+html{
+	background:red;
+}
+
 .welcome{
 	background:cornflowerblue;
 
