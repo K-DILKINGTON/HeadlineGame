@@ -1,4 +1,4 @@
-app.controller('HeadLineController',['$scope','$rootScope','$http','$location','$timeout','$interval','HeadLineService','ScoreService',function($scope,$rootScope,$http,$location,$timeout,$interval,HeadLineService,ScoreService){
+app.controller('HeadLineController',['$scope','$rootScope','$http','$location','$timeout','$interval','HeadLineService','ScoreService','ImagesService',function($scope,$rootScope,$http,$location,$timeout,$interval,HeadLineService,ScoreService,ImagesService){
 
 	$scope.leftHeadline  = {};
 	$scope.rightHeadline = {};
@@ -88,6 +88,7 @@ app.controller('HeadLineController',['$scope','$rootScope','$http','$location','
 	$scope.executeAnswer = executeAnswer;
 	$scope.startGame =startGame;
 	$rootScope.incrementScore =incrementScore;
+	ImagesService.loadAllImages();
 	updateHeadlines();
 	startTimer();
 
