@@ -57,7 +57,7 @@ li{
 .content-area{
 	width:100%;
 	background:red;
-	padding-top:70px;
+	padding-top:55px;
 
 }
 
@@ -263,5 +263,10 @@ li{
 	display: table-cell;
 	vertical-align: middle;
 
+}
+
+.score-display{
+	margin:0px;
+	color:white;
 }
 
